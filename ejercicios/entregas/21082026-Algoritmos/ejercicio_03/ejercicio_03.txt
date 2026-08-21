@@ -1,0 +1,12 @@
+Calcular la raíz cuadrada de un número (Math.sqrt)
+Lenguaje humano:
+- Obtener un número.
+- Encontrar la raíz cuadrada de dicho número.
+- El resultado es la raíz cuadrada.
+
+Pseudocódigo:
+INICIO
+  LEER numero
+  resultado = Math.sqrt(numero)
+  ESCRIBIR resultado
+FIN

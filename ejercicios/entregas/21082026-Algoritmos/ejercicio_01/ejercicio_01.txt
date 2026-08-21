@@ -1,0 +1,12 @@
+Calcular el perímetro de un círculo (Math.PI)
+Lenguaje humano:
+- Obtener el radio del círculo.
+- Multiplicar el radio por 2 y luego por el valor de PI (3.14159...).
+- El resultado es el perímetro.
+
+Pseudocódigo:
+INICIO
+  LEER radio
+  perimetro = 2 * Math.PI * radio
+  ESCRIBIR perimetro
+FIN
