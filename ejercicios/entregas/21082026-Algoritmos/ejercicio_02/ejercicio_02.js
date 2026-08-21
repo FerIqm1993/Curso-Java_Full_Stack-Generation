@@ -1,6 +1,7 @@
 // Elevar un número a una potencia n (Math.pow)
 function elevarPotencia(base, exponente) {
     let resultado = Math.pow(base, exponente);
+    console.log(resultado);
     return resultado;
 }
 
