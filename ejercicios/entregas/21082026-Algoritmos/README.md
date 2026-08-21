@@ -28,6 +28,7 @@ Se realizó el proceso de uso de GIT y GITHUB para el control de versiones y pub
 
 ***Esctructura de carpetas:***
 
+```text
 📁 Algoritmos
 ├── 📄 README.md
 ├── 📁 ejercicio_01
@@ -39,3 +40,4 @@ Se realizó el proceso de uso de GIT y GITHUB para el control de versiones y pub
 └── 📁 ejercicio_03
     ├── 📄 ejercicio_03.js
     └── 📄 ejercicio_03.txt
+```
