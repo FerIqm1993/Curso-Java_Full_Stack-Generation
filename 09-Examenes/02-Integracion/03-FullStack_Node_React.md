@@ -1,0 +1,2 @@
+# Examen Integrador: FullStack (MERN Básico)
+1. Práctica: Haz un API de Node/Express que devuelva un JSON de productos y consúmelo usando un `fetch` desde un componente React, mostrándolo en tarjetas de Bootstrap.

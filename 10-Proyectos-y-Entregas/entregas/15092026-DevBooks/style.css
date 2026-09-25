@@ -1,0 +1,15 @@
+/* Reto Final: Personalización */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.brand-logo {
+    letter-spacing: 2px;
+}
+
+/* Imágenes de los libros parejos */
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}

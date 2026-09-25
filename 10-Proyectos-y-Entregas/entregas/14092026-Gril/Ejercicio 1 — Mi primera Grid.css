@@ -1,0 +1,22 @@
+/* 
+Configurar cuadricula principal
+*/
+.cuadricula {
+    display: grid;
+    /* Formato de cuadricula */
+    grid-template-columns: repeat(3, 60px);
+    /*  Crear 3 filas con 60 px exactos de ancho */
+    gap: 0px;
+    justify-content: center;
+    /* Colocar el cuadrícula al centro del div */
+}
+
+/*
+Agregar los bordes a todos los elementos
+*/
+.recuadro {
+    border: 0.5px dashed black;
+    /*Crear el borde */
+    text-align: center;
+    /*Alinear cada elemento */
+}

@@ -1,0 +1,1 @@
+// Clase 2: Uso de @Test, @BeforeEach, y aserciones básicas en Java

@@ -1,0 +1,43 @@
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://imgs.search.brave.com/7BTbdtHlbxrn-0D69qgDxOmVoTpOeHnsDHFhIbmQ0WY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvdGh1bWJu/YWlsL2tpbWV0c3Ut/bm8teWFpYmEtcGlj/dHVyZXMtYzFnYnN2/ZHJtN204YmU1eS53/ZWJw') no-repeat center center;
+    background-size: cover;
+    padding: 100px 0;
+    text-align: center;
+    border-bottom: 5px solid green;
+}
+
+.hero-title {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: orange;
+    text-shadow: 2px 2px 4px black;
+}
+
+.card-custom {
+    background-color: brown;
+    border: 1px solid orange;
+    transition: transform 0.3s;
+}
+
+.card-custom:hover {
+    transform: scale(1.05);
+    border-color: yellow;
+    border-color: greenyellow;
+}
+
+.footer {
+    background-color: black;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.card-custom .card-img-top {
+    height: 250px;
+    object-fit: cover;
+}

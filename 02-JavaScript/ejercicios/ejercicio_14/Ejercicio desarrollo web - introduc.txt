@@ -1,0 +1,15 @@
+Ejercicio desarrollo web - introducción
+
+Instrucciones: completa el ejercicio agregando los componentes y funcionalidades que hacen falta.
+
+1. En index.html, agrega un mensaje y botón similares a los de "cambiar tema". Este botón y mensaje deben llevar textos que hagan alusión a la función realizada (mostrar tarjetas de Bootstrap con datos de productos, usuarios, etc).
+	
+	Recursos:
+	- FakeStore API:
+	- DummyJSON:
+
+2. Ya sea en el archivo fetch.js creado en la sesión pasada, o bien en uno nuevo, hay que escribir la funcionalidad para que el botón haga lo siguiente:
+
+	- El botón espera un evento "click", cuando se presiona, se manda a llamar a una API (la que tú 	prefieras, las opciones están arriba) y una vez que recupere los datos, tiene que insertar dentro de 	HTML. Si necesitas modificar la estructura de este archivo para maquetar mejor el lugar donde se 	crearán las tarjetas, adelante.
+
+3. La página HTML debe ejecutar el script "main.js". Este archivo debería poder ejecutar ambas funcionalidades, pero el código estará escrito en archivos distintos (pista: módulos).

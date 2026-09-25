@@ -1,0 +1,33 @@
+/* Ajuste con un padding para visualizar mejor cada
+cuadrilla */
+div {
+    padding: 10px;
+}
+
+.cuadricula {
+    /* Formato de cuadricula */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /*  Usar fr para que se adapta a la pantalla*/
+    gap: 10px;
+    /* Dar un espacio a las "tarjetas" */
+    justify-content: center;
+    /* Colocar el cuadrícula al centro del div */
+}
+
+/*
+Agregar los bordes a todos los elementos
+*/
+.recuadro {
+    border: 0.5px dashed black;
+    /*Crear el borde */
+    text-align: center;
+    /*Alinear cada elemento */
+}
+
+/* 
+Usar pseudo-clase sobre cada recuadro
+*/
+.recuadro:hover {
+    background-color: aquamarine;
+}

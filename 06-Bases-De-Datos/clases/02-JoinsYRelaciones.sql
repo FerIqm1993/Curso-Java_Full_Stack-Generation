@@ -1,0 +1,1 @@
+-- INNER JOIN, LEFT JOIN, Foreign Keys

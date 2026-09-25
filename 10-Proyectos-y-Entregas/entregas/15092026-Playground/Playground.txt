@@ -1,0 +1,43 @@
+Respuestas a las preguntas del Laboratorio: Bootstrap Playground
+
+Reto 1 — Texto
+¿Qué cambia?
+El color de la fuente y la alineación del texto.
+
+¿Qué hace cada clase?
+- text-primary: Aplica el color azul por defecto de Bootstrap.
+- text-danger: Aplica el color rojo de peligro o error.
+- text-success: Aplica el color verde de éxito.
+- text-center: Centra el texto horizontalmente.
+
+¿Pueden combinarse?
+Sí, las clases pueden combinarse agregándolas en el mismo atributo class separadas por un espacio 
+
+Reto 3 — Espaciado
+¿Cuál modifica el espacio interno y cuál el externo?
+- p (padding) modifica el espacio interno (entre el contenido y el borde).
+- m (margin) modifica el espacio externo (entre el borde y los elementos a su alrededor).
+
+Código del index.html:
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Playground</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="text-primary text-center">Mi laboratorio Bootstrap</h1>
+    <button class="btn btn-primary btn-lg">Primario</button>
+    <div class="bg-primary text-white p-3 m-3">Caja</div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4 bg-primary text-white p-3 border">Tarjeta 1</div>
+            <div class="col-12 col-md-6 col-lg-4 bg-success text-white p-3 border">Tarjeta 2</div>
+            <div class="col-12 col-md-6 col-lg-4 bg-danger text-white p-3 border">Tarjeta 3</div>
+        </div>
+    </div>
+</body>
+</html>

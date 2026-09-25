@@ -1,0 +1,65 @@
+/* Ajuste con un padding para visualizar mejor cada
+cuadrilla */
+div,
+header,
+nav,
+main,
+footer {
+    padding: 10px;
+}
+
+/*
+Agregar los bordes a todos los elementos
+*/
+.recuadro {
+    border: 0.5px dashed black;
+    /*Crear el borde */
+    text-align: center;
+    /*Alinear cada elemento */
+}
+
+/* 
+Configurar areas del grid
+*/
+.area-header {
+    grid-area: header;
+}
+
+.area-menu {
+    grid-area: menu;
+}
+
+.area-content {
+    grid-area: content;
+}
+
+.area-footer {
+    grid-area: footer;
+}
+
+.contenedor-layout {
+    /* Formato de cuadricula */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    /* Mapa de areas (Ejercicio 5) */
+    grid-template-areas:
+        "header header"
+        "menu content"
+        "footer footer";
+}
+
+/* 
+jercicio 6
+*/
+@media (max-width: 600px) {
+    .contenedor-layout {
+        grid-template-columns: 1fr;
+        /* Mapa en una sola columna */
+        grid-template-areas:
+            "header"
+            "menu"
+            "content"
+            "footer";
+    }
+}

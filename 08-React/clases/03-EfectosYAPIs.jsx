@@ -1,0 +1,1 @@
+// useEffect para consumir datos (fetch/axios) al montar componentes

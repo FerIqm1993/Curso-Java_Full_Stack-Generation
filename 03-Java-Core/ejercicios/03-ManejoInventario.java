@@ -1,0 +1,1 @@
+public class ManejoInventario { /* Reto: Usar Colecciones (HashMap) para guardar y buscar productos */ }

@@ -1,5 +1,14 @@
 {
   "dependencies": {
     "prompt-sync": "^4.2.0"
+<<<<<<< HEAD
+=======
+  },
+  "devDependencies": {
+    "jest": "^30.5.2"
+  },
+  "allowScripts": {
+    "@parcel/watcher@2.6.0": true
+>>>>>>> master
   }
 }

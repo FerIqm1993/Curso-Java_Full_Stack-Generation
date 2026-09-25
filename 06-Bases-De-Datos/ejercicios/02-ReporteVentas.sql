@@ -1,0 +1,1 @@
+-- Reto: Crear un query que una 3 tablas (Ventas, Productos, Clientes)

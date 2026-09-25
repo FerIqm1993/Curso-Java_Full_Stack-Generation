@@ -1,0 +1,1 @@
+# Reto: Crea dos ramas, modifica la misma línea, haz merge y resuelve el conflicto.

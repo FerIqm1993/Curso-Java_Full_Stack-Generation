@@ -1,0 +1,1 @@
+// Funciones (Arrow y regulares) y scope de variables (var vs let vs const)

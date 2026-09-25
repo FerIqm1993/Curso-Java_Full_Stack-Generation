@@ -1,0 +1,1 @@
+// Reto: Dado un arreglo de objetos, usar filter y map para obtener resultados.
