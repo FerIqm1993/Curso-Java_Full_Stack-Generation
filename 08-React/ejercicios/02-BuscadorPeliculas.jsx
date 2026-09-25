@@ -1,0 +1,1 @@
+// Reto: App que busque películas conectada a OMDB API usando estado y efectos

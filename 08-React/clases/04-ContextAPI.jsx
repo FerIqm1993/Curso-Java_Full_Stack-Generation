@@ -1,0 +1,1 @@
+// Manejo de estado global sin Redux usando createContext

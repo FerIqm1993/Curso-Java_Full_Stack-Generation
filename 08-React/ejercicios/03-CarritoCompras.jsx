@@ -1,0 +1,1 @@
+// Reto: App con Context API para manejar el carrito de compras a nivel global

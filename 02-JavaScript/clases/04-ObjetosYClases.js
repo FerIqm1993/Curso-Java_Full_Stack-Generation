@@ -1,0 +1,1 @@
+// POO en JS, prototypes, clases ES6, destructuring

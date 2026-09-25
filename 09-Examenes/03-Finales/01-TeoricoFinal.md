@@ -1,0 +1,2 @@
+# Examen Teórico Final: Full Stack Jr. / Mid
+Evaluación exhaustiva de 50 preguntas cubriendo Arquitectura Web, Protocolo HTTP, Ciclo de Vida de Software, Patrones de Diseño (Singleton, Factory, MVC), Complejidad Algorítmica (Big O) y Seguridad Básica (XSS, SQL Injection).
