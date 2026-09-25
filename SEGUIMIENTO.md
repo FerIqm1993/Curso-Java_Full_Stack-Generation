@@ -125,6 +125,45 @@ Usa este documento para llevar un control de tu progreso. Marca las casillas `[x
 
 ---
 
+---
+
+## 🌳 11 - Control de Versiones (Git y GitHub)
+- **Ruta de Aprendizaje**
+  - [ ] `OBJETIVOS.md`
+- **Clases**
+  - [ ] `01-FundamentosGit.md`
+  - [ ] `02-RamasYMerge.md`
+  - [ ] `03-GitHubColaborativo.md`
+- **Ejercicios**
+  - [ ] `01-SimulacionConflicto.md`
+
+---
+
+## 🧪 12 - Testing y Calidad de Código
+- **Ruta de Aprendizaje**
+  - [ ] `OBJETIVOS.md`
+- **Clases**
+  - [ ] `01-IntroduccionTesting.md`
+  - [ ] `02-JUnit_Java.java`
+  - [ ] `03-Mockito_Java.java`
+  - [ ] `04-Jest_React.jsx`
+- **Ejercicios**
+  - [ ] `01-TestCalculadora.java`
+
+---
+
+## ☁️ 13 - Despliegue y DevOps
+- **Ruta de Aprendizaje**
+  - [ ] `OBJETIVOS.md`
+- **Clases**
+  - [ ] `01-ConceptosDocker.md`
+  - [ ] `02-DockerCompose.md`
+  - [ ] `03-DespliegueNube.md`
+- **Ejercicios**
+  - [ ] `01-ContainerizarAPI.md`
+
+---
+
 ## 🎓 09 - Exámenes y Pruebas Técnicas
 - **Exámenes por Módulo**
   - [ ] `01-HTML_CSS_Bootstrap.md`
