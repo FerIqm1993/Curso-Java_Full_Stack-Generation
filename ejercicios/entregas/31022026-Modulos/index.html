@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Módulos</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="calculator-container">
+        <h1>Calculadora</h1>
+
+        <div class="display-section">
+            <div class="result" id="result-display">0</div>
+        </div>
+
+        <div class="inputs-section">
+            <input type="number" id="input-n1" placeholder="Número 1" value="5">
+            <input type="number" id="input-n2" placeholder="Número 2" value="6">
+        </div>
+
+        <div class="operations-grid">
+            <button type="button" class="op-btn" data-op="1" title="Sumar">+</button>
+            <button type="button" class="op-btn" data-op="2" title="Restar">-</button>
+            <button type="button" class="op-btn" data-op="3" title="Multiplicar">×</button>
+            <button type="button" class="op-btn" data-op="4" title="Dividir (Cociente)">÷</button>
+            <button type="button" class="op-btn" data-op="5" title="Residuo">%</button>
+        </div>
+    </div>
+
+    <!-- Script principal con type module -->
+    <script type="module" src="./js/main.js"></script>
+</body>
+
+</html>

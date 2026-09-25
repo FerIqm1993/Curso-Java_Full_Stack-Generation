@@ -1,0 +1,14 @@
+Elevar un número a una potencia n (Math.pow)
+Lenguaje humano:
+- Obtener un número base.
+- Obtener el número exponente (potencia).
+- Calcular la potencia usando la base y el exponente.
+- El resultado es la potencia.
+
+Pseudocódigo:
+INICIO
+  LEER base
+  LEER exponente
+  resultado = Math.pow(base, exponente)
+  ESCRIBIR resultado
+FIN

@@ -1,0 +1,54 @@
+/* 
+Configurar cuadricula principal
+*/
+
+/* Ajuste con un padding para visualizar mejor cada
+cuadrilla */
+div {
+    padding: 10px;
+}
+
+.titulo_ejercicio {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.cuadricula_a {
+    display: grid;
+    /* Formato de cuadricula */
+    grid-template-columns: repeat(2, 60px);
+    /*  Crear 2 filas con 60 px exactos de ancho */
+    gap: 0px;
+    justify-content: center;
+    /* Colocar el cuadrícula al centro del div */
+}
+
+.cuadricula_b {
+    display: grid;
+    /* Formato de cuadricula */
+    grid-template-columns: repeat(3, 60px);
+    /*  Crear 3 filas con 60 px exactos de ancho */
+    gap: 0px;
+    justify-content: center;
+    /* Colocar el cuadrícula al centro del div */
+}
+
+.cuadricula_c {
+    display: grid;
+    /* Formato de cuadricula */
+    grid-template-columns: repeat(4, 60px);
+    /*  Crear 4 filas con 60 px exactos de ancho */
+    gap: 0px;
+    justify-content: center;
+    /* Colocar el cuadrícula al centro del div */
+}
+
+
+/*
+Agregar los bordes a todos los elementos
+*/
+.recuadro {
+    text-align: center;
+    /*Alinear cada elemento */
+}

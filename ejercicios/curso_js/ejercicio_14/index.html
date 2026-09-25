@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 13</title>
+    <!-- Bootstrap JS Bundle -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1 class="container text-center"> --- JavaScript para el Desarrollo Web ---</h1>
+    <!-- Definir cuadrícula con Bootstrap-->
+    <div class="container">
+
+        <!-- Encabezados -->
+        <h2 class="text-center"> Ejercicio Práctico </h2>
+        <h3 class="text-center"> Temas: DOM, WebStorage, Fetch</h3>
+
+        <!-- Contenedor de cambio de tema -->
+        <div class="container p-6">
+            <h4 class="text-center">Haz click para cambiar el tema de la página.</h4>
+
+            <!-- Botón de cambio de tema-->
+            <div class="p-3 text-center">
+                <button type="button" id="temaBtn" class="btn btn-primary">Cambiar Tema</button>
+            </div>
+        </div>
+
+        <hr>
+
+        <!-- ========================================== -->
+        <!-- SECCIÓN NUEVA: FETCH DE PRODUCTOS          -->
+        <!-- ========================================== -->
+        <div class="container p-4">
+            <!-- Mensaje alusivo a la función -->
+            <h4 class="text-center">Haz click para obtener productos desde la API (FakeStore)</h4>
+
+            <!-- Botón para disparar el fetch -->
+            <div class="p-3 text-center">
+                <button type="button" id="fetchBtn" class="btn btn-success">Obtener Productos</button>
+            </div>
+
+            <!-- Contenedor donde se inyectarán las tarjetas (Cards de Bootstrap) dinámicamente -->
+            <!-- Usamos la clase 'row' de Bootstrap para crear el sistema de columnas -->
+            <div id="productosContainer" class="row mt-4">
+                <!-- Las tarjetas aparecerán aquí mediante JavaScript -->
+            </div>
+        </div>
+
+        <hr>
+
+        <!-- ========================================== -->
+        <!-- SECCIÓN NUEVA: FETCH DE USUARIOS (DummyJSON)-->
+        <!-- ========================================== -->
+        <div class="container p-4">
+            <!-- Mensaje alusivo a la función -->
+            <h4 class="text-center">Haz click para obtener usuarios desde la API (DummyJSON)</h4>
+
+            <!-- Botón para disparar el fetch de usuarios -->
+            <div class="p-3 text-center">
+                <button type="button" id="fetchUsersBtn" class="btn btn-info text-white">Obtener Usuarios</button>
+            </div>
+
+            <!-- Contenedor donde se inyectarán las tarjetas de usuarios -->
+            <div id="usuariosContainer" class="row mt-4">
+                <!-- Las tarjetas de usuarios aparecerán aquí -->
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="./js/main.js"></script>
+
+</body>
+
+</html>
