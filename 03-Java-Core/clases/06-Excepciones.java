@@ -1,1 +1,1 @@
-public class Excepciones { /* try-catch-finally, throws, custom exceptions */ }
+class Excepciones { /* try-catch-finally, throws, custom exceptions */ }

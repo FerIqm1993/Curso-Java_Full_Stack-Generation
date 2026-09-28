@@ -1,4 +1,4 @@
-public class ConversionDatos {
+class ConversionDatos {
     public static void main(String[] args) {
         double valorDouble2 = 756.456;
         float valorFloat2 = (float) valorDouble2;

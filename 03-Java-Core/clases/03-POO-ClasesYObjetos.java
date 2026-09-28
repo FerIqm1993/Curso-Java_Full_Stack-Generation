@@ -1,1 +1,1 @@
-public class ClasesYObjetos { /* Definición de clases, constructores y modificadores de acceso */ }
+class ClasesYObjetos { /* Definición de clases, constructores y modificadores de acceso */ }

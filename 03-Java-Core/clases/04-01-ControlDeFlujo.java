@@ -1,4 +1,4 @@
-public class ControlFlujo {
+class ControlFlujo {
     public static void main(String[] args) {
         // En lugar de importar, definimos los datos del usuario a evaluar
         int edad = 20;

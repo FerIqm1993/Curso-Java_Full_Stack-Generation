@@ -1,4 +1,4 @@
-public class VariablesDatos {
+class VariablesDatos {
     // Ejecutar mi aplicación -> Main
 
     public static void main(String[] args) {

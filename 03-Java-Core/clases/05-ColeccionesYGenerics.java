@@ -1,2 +1,2 @@
 import java.util.*;
-public class Colecciones { /* List, Set, Map, ArrayList, HashMap */ }
+class Colecciones { /* List, Set, Map, ArrayList, HashMap */ }

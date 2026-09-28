@@ -1,1 +1,1 @@
-public class HerenciaPolimorfismo { /* extends, implements, super, @Override */ }
+class HerenciaPolimorfismo { /* extends, implements, super, @Override */ }

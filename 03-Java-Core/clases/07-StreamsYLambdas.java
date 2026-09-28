@@ -1,1 +1,1 @@
-public class Streams { /* Programación Funcional en Java 8+, Stream API */ }
+class Streams { /* Programación Funcional en Java 8+, Stream API */ }
