@@ -1,16 +1,15 @@
-
 // Librería para usar Scanner
 import java.util.Scanner;
 
 class RecomendacionPeliculas {
-    // Programa de recomencación de películas
+    // Programa de recomendación de películas
     public static void main(String[] args) {
         // Instanciamos clase Scanner
         Scanner scanner = new Scanner(System.in);
 
         // Solicitar categoría a user
         System.out.println(
-                "Escoga una categoría escribiendo el número correspondiente: Drama(1), Comedia(2), Romance(3), Suspenso(4) o Terror(5):\n");
+                "Escoja una categoría escribiendo el número correspondiente: Drama(1), Comedia(2), Romance(3), Suspenso(4) o Terror(5):\n");
 
         // Validar que el usuario ingrese un número antes de intentar leerlo
         if (!scanner.hasNextInt()) {
