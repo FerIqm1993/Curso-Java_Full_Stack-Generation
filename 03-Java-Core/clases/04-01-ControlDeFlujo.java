@@ -7,7 +7,7 @@ class ControlFlujo {
 
         System.out.println("--- Evaluando Acceso al Sistema ---");
 
-        // 1. Estructura if-else simple
+        // Estructura if-else
         if (edad >= 18) {
             System.out.println("El usuario es mayor de edad.");
         } else {
